@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Megan Dunn Gallery</title>
+
+        <!-- Latest compiled Bootstrap CSS -->
+        <link rel="stylesheet" 
+        href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+        <!-- My External Stylesheet -->
+        <link rel="stylesheet" href="./styles.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+        <!--Latest Compiled Font Awesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+        
+    </head>
+    <body>
+
+        <section>
+            <!--Checkbox for Hamburger Menu-->
+            <input type="checkbox" id="check">
+
+            <!--Logo & Navigation Bar-->
+            <header>
+                <a href="./index.html">  
+                    <img src="./images/meganDunnLogo_transparent.png" class="logo" alt="Megan Dunn Logo">
+                </a>
+
+                <div class="navbar">
+                    <a href="./index.html">Home</a>
+                    <a href="./about.html">About</a>
+                    <a href="./gallery.html">Gallery</a>
+                    <a href="./contact.html">Contact</a>
+                </div>
+
+                <!--Hamburger Menu from Font-Awesome-->
+                <label for="check" class="check">
+                    <i class="fas fa-bars menu-btn"></i>
+                    <i class="fas fa-times close-btn"></i>
+                </label>
+                
+            </header>
+
+            <!--Bootstrap Jumbotron-->
+           <div class="content-wrap">
+            <div class="jumbotron">
+                <h1>Gallery</h1>
+                <p>Here's what I've Been Working On</p>
+            </div>
+            
+            <!---Gallery Items-->
+            <div class="row">
+                <div class="col-md-3">
+                 <div class="thumbnail">
+                   <a href="./images/businesscard.jpg">
+                    <img src="./images/businesscard.jpg" alt="sample business card" style="width:100%">
+                    <div class="caption">
+                       <p>Custom Business Cards</p>
+                    </div>
+                   </a>
+                 </div>
+                </div>
+                <div class="col-md-3">
+                 <div class="thumbnail">
+                     <a href="./images/cityandbeach.jpg">
+                       <img src="./images/cityandbeach.jpg" alt="Fantasy City at the Beach" style="width:100%">
+                       <div class="caption">
+                           <p>Photography Editing</p>
+                       </div>
+                   </a>
+                 </div>
+                </div>
+                <div class="col-md-3">
+                 <div class="thumbnail">
+                   <a href="./images/petcollage.jpg">
+                    <img src="./images/petcollage.jpg"  alt="Pet Collage" style="width:100%">
+                     <div class="caption">
+                         <p>Custom Pet Collage</p>
+                     </div>
+                   </a>
+                 </div>
+                </div>
+               <div class="col-md-3">
+                <div class="thumbnail">
+                 <a href="./images/vetPostcard.jpg">
+                   <img src="./images/vetPostcard.jpg" alt="Web Article Front Page" style="width:100%">
+                    <div class="caption">
+                        <p>Custom Postcards</p>
+                    </div>
+                 </a>
+                </div>
+               </div>
+           </div>
+             
+        </div>
+        </section>
+        <footer>
+    <!-- Social media and contact links. Add or remove any networks. -->
+        <div class="social-icons"> 
+                <a href="https://www.linkedin.com/in/dunnmegan/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/" target="_blank" ><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            </div>
+          <ul class="contact-list">
+            <li><a href="mailto:iamdun24@gmail.com" target="_blank">Email Me</a></li>
+            <li>Copyright&copy; 2021 All Rights Reserved</li>
+          </ul>
+    </footer> 
+    </body>
+    
+</html>
