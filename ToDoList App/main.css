@@ -1,0 +1,52 @@
+/* Main Styles */
+
+.dropdown {
+    padding-bottom: 30px;
+}
+
+body {
+   background-color: #242582;
+   color: white;
+   font-family: 'PT Sans', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#todoInfo {
+    padding-top: 50px;
+}
+
+/* Style all font awesome icons */
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+  
+/* Set a specific color for each brand */
+  
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+#socials {
+    padding-top: 20px;
+}
